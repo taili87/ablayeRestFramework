@@ -1,0 +1,890 @@
+2020-11-05 11:47:02,185 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 11:47:03,500 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 11:47:03,522 - EmployeesRestAPI -INFO - Response Body ={"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-11-05 11:47:03,539 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 11:47:03,540 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 11:47:03,543 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 11:47:03,544 - EmployeesRestAPI -INFO - Response time is = 624
+2020-11-05 11:47:03,547 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 11:47:03,547 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 11:47:03,550 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 11:47:03,550 - EmployeesRestAPI -INFO - Content type is = application/json;charset=utf-8
+2020-11-05 11:47:03,554 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 11:47:03,555 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 11:47:03,557 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 11:47:03,557 - EmployeesRestAPI -INFO - Content Length is = 595
+2020-11-05 11:47:03,558 - EmployeesRestAPI -INFO - Content Length is less than 100
+2020-11-05 11:47:03,561 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 11:47:03,563 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 11:52:44,362 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 11:52:45,613 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 11:52:45,638 - EmployeesRestAPI -INFO - Response Body ={"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-11-05 11:52:45,647 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 11:52:45,647 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 11:52:45,650 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 11:52:45,651 - EmployeesRestAPI -INFO - Response time is = 567
+2020-11-05 11:52:45,653 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 11:52:45,653 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 11:52:45,655 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 11:52:45,655 - EmployeesRestAPI -INFO - Content type is = application/json;charset=utf-8
+2020-11-05 11:52:45,658 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 11:52:45,658 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 11:52:45,662 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 11:52:45,662 - EmployeesRestAPI -INFO - Content Length is = 595
+2020-11-05 11:52:45,663 - EmployeesRestAPI -INFO - Content Length is less than 100
+2020-11-05 11:52:45,667 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 11:52:45,668 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 11:52:45,671 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 11:53:30,469 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 11:53:31,680 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 11:53:31,702 - EmployeesRestAPI -INFO - Response Body ={"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-11-05 11:53:31,712 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 11:53:31,713 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 11:53:31,716 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 11:53:31,716 - EmployeesRestAPI -INFO - Response time is = 520
+2020-11-05 11:53:31,719 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 11:53:31,720 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 11:53:31,722 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 11:53:31,723 - EmployeesRestAPI -INFO - Content type is = application/json;charset=utf-8
+2020-11-05 11:53:31,726 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 11:53:31,727 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 11:53:31,730 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 11:53:31,730 - EmployeesRestAPI -INFO - Content Length is = 595
+2020-11-05 11:53:31,731 - EmployeesRestAPI -INFO - Content Length is less than 100
+2020-11-05 11:53:31,735 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 11:53:31,736 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 11:53:31,738 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 11:53:52,562 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 11:53:53,944 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 11:53:53,970 - EmployeesRestAPI -INFO - Response Body ={"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-11-05 11:53:53,980 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 11:53:53,981 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 11:53:53,984 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 11:53:53,985 - EmployeesRestAPI -INFO - Response time is = 696
+2020-11-05 11:53:53,988 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 11:53:53,989 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 11:53:53,991 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 11:53:53,992 - EmployeesRestAPI -INFO - Content type is = application/json;charset=utf-8
+2020-11-05 11:53:53,995 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 11:53:53,996 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 11:53:54,000 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 11:53:54,001 - EmployeesRestAPI -INFO - Content Length is = 595
+2020-11-05 11:53:54,002 - EmployeesRestAPI -INFO - Content Length is less than 100
+2020-11-05 11:53:54,007 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 11:53:54,007 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 11:53:54,013 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 11:54:24,086 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 11:54:25,311 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 11:54:25,331 - EmployeesRestAPI -INFO - Response Body ={"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-11-05 11:54:25,340 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 11:54:25,341 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 11:54:25,344 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 11:54:25,345 - EmployeesRestAPI -INFO - Response time is = 604
+2020-11-05 11:54:25,347 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 11:54:25,348 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 11:54:25,350 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 11:54:25,351 - EmployeesRestAPI -INFO - Content type is = application/json;charset=utf-8
+2020-11-05 11:54:25,353 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 11:54:25,354 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 11:54:25,356 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 11:54:25,356 - EmployeesRestAPI -INFO - Content Length is = 595
+2020-11-05 11:54:25,357 - EmployeesRestAPI -INFO - Content Length is less than 100
+2020-11-05 11:54:25,360 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 11:54:25,361 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 11:54:25,363 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 12:50:04,440 - EmployeesRestAPI -INFO - Started TC001_GET_SINGLE_Employee
+2020-11-05 12:50:09,447 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 12:50:09,470 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 12:50:09,474 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 12:50:09,476 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 12:50:09,480 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 12:50:09,483 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 12:50:09,483 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 12:50:09,485 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 12:50:09,487 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 12:50:59,575 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 12:51:04,257 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 12:51:04,278 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 12:51:04,282 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 12:51:04,284 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 12:51:04,286 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 12:51:04,287 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 12:51:04,288 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 12:51:04,289 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 12:51:04,290 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 12:52:26,028 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 12:52:30,627 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 12:52:30,650 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 12:52:30,653 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 12:52:30,655 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 12:52:30,657 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 12:52:30,659 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 12:52:30,660 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-05 12:52:30,661 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 12:52:30,663 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:01:51,324 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 13:01:55,911 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:01:55,934 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:01:55,937 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:01:55,938 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:01:55,940 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:01:55,943 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:01:55,944 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:01:55,946 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:01:55,948 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:02:56,080 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 13:03:00,546 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:03:00,570 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:03:00,572 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:03:00,575 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:03:00,577 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:03:00,579 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:03:00,579 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:03:00,582 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:03:00,586 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:03:55,270 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 13:03:59,673 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:03:59,696 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:03:59,699 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:03:59,701 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:03:59,703 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:03:59,705 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:03:59,705 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:03:59,708 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:03:59,708 - EmployeesRestAPI -INFO - Content Length = null
+2020-11-05 13:03:59,711 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:04:32,719 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_Employee
+2020-11-05 13:04:37,190 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:04:37,214 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:04:37,216 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:04:37,218 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:04:37,220 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:04:37,222 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:04:37,222 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:04:37,224 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:05:24,050 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:05:28,471 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:05:28,486 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:05:28,493 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:05:28,494 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:05:28,496 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:05:28,497 - EmployeesRestAPI -INFO - Response time is = 728
+2020-11-05 13:05:28,498 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:05:28,499 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:05:28,500 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:05:28,501 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:05:28,504 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:05:28,505 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:05:28,508 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:05:28,509 - EmployeesRestAPI -INFO - Content Length is = null
+2020-11-05 13:05:28,513 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 13:05:28,515 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 13:05:28,517 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 13:06:21,468 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:06:25,981 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:06:26,001 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:06:26,010 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:06:26,011 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:06:26,014 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:06:26,015 - EmployeesRestAPI -INFO - Response time is = 870
+2020-11-05 13:06:26,019 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:06:26,019 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:06:26,022 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:06:26,022 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:06:26,026 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:06:26,026 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:06:26,030 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:06:26,030 - EmployeesRestAPI -INFO - Content Length is = null
+2020-11-05 13:06:26,035 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 13:06:26,037 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 13:06:26,040 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 13:07:08,238 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:07:12,755 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:07:12,772 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:07:12,780 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:07:12,780 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:07:12,783 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:07:12,783 - EmployeesRestAPI -INFO - Response time is = 842
+2020-11-05 13:07:12,785 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:07:12,785 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:07:12,788 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:07:12,788 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:07:12,791 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:07:12,791 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:07:12,793 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:07:12,794 - EmployeesRestAPI -INFO - Content Length is = null
+2020-11-05 13:07:12,797 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 13:07:12,798 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 13:07:12,800 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 13:08:05,747 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:08:10,180 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:08:10,196 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:08:10,204 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:08:10,204 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:08:10,207 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:08:10,207 - EmployeesRestAPI -INFO - Response time is = 825
+2020-11-05 13:08:10,209 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:08:10,209 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:08:10,211 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:08:10,211 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:08:10,214 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:08:10,214 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:08:10,216 - EmployeesRestAPI -INFO - checking content length
+2020-11-05 13:08:10,217 - EmployeesRestAPI -INFO - Content Length is = null
+2020-11-05 13:08:10,220 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 13:08:42,379 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:08:46,778 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:08:46,794 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:08:46,802 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:08:46,803 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:08:46,806 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:08:46,807 - EmployeesRestAPI -INFO - Response time is = 795
+2020-11-05 13:08:46,809 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:08:46,809 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:08:46,811 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:08:46,812 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:08:46,815 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:08:46,815 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:08:46,817 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 13:08:46,818 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 13:08:46,819 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-05 13:30:04,373 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-05 13:30:08,923 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:30:08,948 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:30:08,952 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:30:08,955 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:30:08,958 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:30:08,960 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:30:08,961 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:30:08,962 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-05 13:30:16,696 - EmployeesRestAPI -INFO - Started TC001_GET_All_Employee
+2020-11-05 13:30:21,338 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-05 13:30:21,363 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-05 13:30:21,377 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-05 13:30:21,377 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-05 13:30:21,381 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-05 13:30:21,382 - EmployeesRestAPI -INFO - Response time is = 924
+2020-11-05 13:30:21,388 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-05 13:30:21,388 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-05 13:30:21,392 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-05 13:30:21,393 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-05 13:30:21,398 - EmployeesRestAPI -INFO - Checking server type
+2020-11-05 13:30:21,399 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-05 13:30:21,403 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-05 13:30:21,404 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-05 13:30:21,407 - EmployeesRestAPI -INFO - Finished TC001
+2020-11-06 09:44:05,091 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 09:44:09,971 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 09:44:09,999 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 09:44:10,001 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 09:44:10,004 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 09:44:10,006 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 09:44:10,007 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 09:44:10,008 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 09:44:10,009 - EmployeesRestAPI -INFO - Finished TC002
+2020-11-06 10:19:05,132 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:19:32,567 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:19:57,852 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:20:34,444 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:21:49,500 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:21:49,912 - EmployeesRestAPI -INFO - JohnH
+2020-11-06 10:21:49,913 - EmployeesRestAPI -INFO - 80949
+2020-11-06 10:21:49,913 - EmployeesRestAPI -INFO - 90
+2020-11-06 10:22:02,158 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:22:02,553 - EmployeesRestAPI -INFO - Johnm
+2020-11-06 10:22:02,554 - EmployeesRestAPI -INFO - 46384
+2020-11-06 10:22:02,554 - EmployeesRestAPI -INFO - 55
+2020-11-06 10:23:24,913 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:23:25,312 - EmployeesRestAPI -INFO - 
+2020-11-06 10:23:25,313 - EmployeesRestAPI -INFO - 
+2020-11-06 10:23:25,313 - EmployeesRestAPI -INFO - 
+2020-11-06 10:23:56,312 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:23:56,721 - EmployeesRestAPI -INFO - JohnG
+2020-11-06 10:23:56,721 - EmployeesRestAPI -INFO - 64696
+2020-11-06 10:23:56,722 - EmployeesRestAPI -INFO - 75
+2020-11-06 10:24:34,784 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:24:35,184 - EmployeesRestAPI -INFO - EBLZSyG
+2020-11-06 10:24:35,184 - EmployeesRestAPI -INFO - 34312
+2020-11-06 10:24:35,185 - EmployeesRestAPI -INFO - 77
+2020-11-06 10:25:22,911 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:25:23,311 - EmployeesRestAPI -INFO - Mister eEJwKlF
+2020-11-06 10:25:23,311 - EmployeesRestAPI -INFO - 86082
+2020-11-06 10:25:23,311 - EmployeesRestAPI -INFO - 55
+2020-11-06 10:25:39,786 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:25:40,213 - EmployeesRestAPI -INFO - Mister Z
+2020-11-06 10:25:40,214 - EmployeesRestAPI -INFO - 12093
+2020-11-06 10:25:40,214 - EmployeesRestAPI -INFO - 83
+2020-11-06 10:25:51,790 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 10:25:52,192 - EmployeesRestAPI -INFO - Mister L
+2020-11-06 10:25:52,193 - EmployeesRestAPI -INFO - 98243
+2020-11-06 10:25:52,193 - EmployeesRestAPI -INFO - 99
+2020-11-06 11:13:17,059 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 11:13:17,530 - EmployeesRestAPI -INFO - Mister M
+2020-11-06 11:13:17,531 - EmployeesRestAPI -INFO - 39646
+2020-11-06 11:13:17,531 - EmployeesRestAPI -INFO - 04
+2020-11-06 11:14:30,272 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:14:35,052 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 11:14:35,074 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 11:14:35,077 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 11:14:35,080 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 11:14:35,083 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 11:14:35,088 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 11:14:35,089 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 11:15:08,171 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:15:12,958 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 11:15:12,981 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 11:15:12,984 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 11:15:12,989 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 11:15:12,989 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 11:15:12,991 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 11:15:12,992 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 11:15:43,679 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:15:48,480 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 11:15:48,504 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 11:15:48,507 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 11:15:48,509 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 11:15:48,511 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 11:15:48,513 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 11:15:48,513 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 11:43:17,919 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:44:31,844 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:44:36,673 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 11:44:36,694 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 11:44:36,697 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 11:44:36,699 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 11:44:36,701 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 11:44:36,703 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 11:44:36,703 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 11:44:45,058 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:45:56,466 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:48:26,543 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:49:44,765 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 11:49:50,447 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:17:26,005 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:17:26,439 - EmployeesRestAPI -INFO - Mister y
+2020-11-06 12:17:26,440 - EmployeesRestAPI -INFO - 05252
+2020-11-06 12:17:26,441 - EmployeesRestAPI -INFO - 75
+2020-11-06 12:17:30,991 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:17:35,707 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:17:35,724 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:17:39,307 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:17:39,311 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:17:39,314 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:17:39,318 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:17:39,321 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:17:39,328 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:17:39,328 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 12:17:39,333 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 12:17:42,580 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:17:42,584 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 12:17:42,590 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:17:42,591 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 12:17:42,597 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:17:42,598 - EmployeesRestAPI -INFO - Response time is = 241
+2020-11-06 12:17:42,601 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:17:42,602 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 12:17:42,605 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:17:42,605 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 12:17:42,608 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:17:42,608 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 12:17:42,610 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 12:17:42,610 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 12:17:42,616 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:17:42,616 - EmployeesRestAPI -INFO - Mister u
+2020-11-06 12:17:42,617 - EmployeesRestAPI -INFO - 81192
+2020-11-06 12:17:42,617 - EmployeesRestAPI -INFO - 47
+2020-11-06 12:23:20,544 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:23:20,979 - EmployeesRestAPI -INFO - Mister R
+2020-11-06 12:23:20,980 - EmployeesRestAPI -INFO - 17857
+2020-11-06 12:23:20,980 - EmployeesRestAPI -INFO - 20
+2020-11-06 12:23:25,430 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:23:30,056 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:23:30,072 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:23:34,756 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:23:34,758 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:23:34,761 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:23:34,765 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:23:34,768 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:23:34,775 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:23:34,776 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 12:23:34,781 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 12:23:38,058 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:23:38,064 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 12:23:38,071 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:23:38,072 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 12:23:38,076 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:23:38,077 - EmployeesRestAPI -INFO - Response time is = 270
+2020-11-06 12:23:38,080 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:23:38,080 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 12:23:38,083 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:23:38,084 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 12:23:38,086 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:23:38,086 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 12:23:38,089 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 12:23:38,089 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 12:23:38,094 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:23:38,095 - EmployeesRestAPI -INFO - Mister E
+2020-11-06 12:23:38,095 - EmployeesRestAPI -INFO - 02159
+2020-11-06 12:23:38,096 - EmployeesRestAPI -INFO - 28
+2020-11-06 12:32:47,642 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:32:48,094 - EmployeesRestAPI -INFO - Mister x
+2020-11-06 12:32:48,094 - EmployeesRestAPI -INFO - 15639
+2020-11-06 12:32:48,095 - EmployeesRestAPI -INFO - 97
+2020-11-06 12:32:52,444 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:32:57,022 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:32:57,038 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:33:02,826 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:33:02,827 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:33:02,830 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:33:02,835 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:33:02,837 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:33:02,841 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:33:02,841 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 12:33:02,846 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 12:33:06,094 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:33:06,097 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 12:33:06,100 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:33:06,101 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 12:33:06,103 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:33:06,104 - EmployeesRestAPI -INFO - Response time is = 240
+2020-11-06 12:33:06,106 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:33:06,107 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 12:33:06,110 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:33:06,110 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 12:33:06,112 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:33:06,113 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 12:33:06,115 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 12:33:06,116 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 12:33:06,121 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:33:06,122 - EmployeesRestAPI -INFO - Mister z
+2020-11-06 12:33:06,122 - EmployeesRestAPI -INFO - 89075
+2020-11-06 12:33:06,123 - EmployeesRestAPI -INFO - 52
+2020-11-06 12:34:46,473 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:34:46,867 - EmployeesRestAPI -INFO - Mister z
+2020-11-06 12:34:46,867 - EmployeesRestAPI -INFO - 30540
+2020-11-06 12:34:46,868 - EmployeesRestAPI -INFO - 83
+2020-11-06 12:34:51,300 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:34:55,823 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:34:55,843 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:34:59,850 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:34:59,854 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:34:59,856 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:34:59,860 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:34:59,863 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:34:59,868 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:34:59,868 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 12:34:59,872 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 12:35:03,167 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:35:03,172 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 12:35:03,182 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:35:03,184 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 12:35:03,188 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:35:03,189 - EmployeesRestAPI -INFO - Response time is = 289
+2020-11-06 12:35:03,191 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:35:03,191 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 12:35:03,193 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:35:03,193 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 12:35:03,195 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:35:03,195 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 12:35:03,198 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 12:35:03,198 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 12:35:03,202 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:35:03,202 - EmployeesRestAPI -INFO - Mister W
+2020-11-06 12:35:03,203 - EmployeesRestAPI -INFO - 70155
+2020-11-06 12:35:03,203 - EmployeesRestAPI -INFO - 77
+2020-11-06 12:52:18,849 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:52:19,301 - EmployeesRestAPI -INFO - Mister R
+2020-11-06 12:52:19,302 - EmployeesRestAPI -INFO - 18197
+2020-11-06 12:52:19,303 - EmployeesRestAPI -INFO - 69
+2020-11-06 12:52:23,696 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:52:28,373 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 12:52:28,386 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 12:52:31,926 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:52:31,929 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:52:31,932 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:52:31,938 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:52:31,943 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:52:31,956 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:52:31,957 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 12:52:31,966 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 12:52:35,382 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 12:52:35,383 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 12:52:35,386 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 12:52:35,387 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 12:52:35,389 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 12:52:35,390 - EmployeesRestAPI -INFO - Response time is = 409
+2020-11-06 12:52:35,391 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 12:52:35,392 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 12:52:35,394 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 12:52:35,394 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 12:52:35,396 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 12:52:35,396 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 12:52:35,398 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 12:52:35,398 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 12:52:35,403 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 12:52:35,404 - EmployeesRestAPI -INFO - Mister p
+2020-11-06 12:52:35,404 - EmployeesRestAPI -INFO - 07256
+2020-11-06 12:52:35,405 - EmployeesRestAPI -INFO - 19
+2020-11-06 16:54:26,059 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:54:26,497 - EmployeesRestAPI -INFO - Mister N
+2020-11-06 16:54:26,498 - EmployeesRestAPI -INFO - 13077
+2020-11-06 16:54:26,498 - EmployeesRestAPI -INFO - 09
+2020-11-06 16:54:30,987 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:54:35,783 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 16:54:35,793 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:54:39,320 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:54:39,329 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:54:39,336 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:54:39,338 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:54:39,340 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:54:39,342 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:54:39,343 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 16:54:39,346 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 16:54:42,634 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:54:42,639 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 16:54:42,643 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:54:42,644 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 16:54:42,646 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:54:42,647 - EmployeesRestAPI -INFO - Response time is = 283
+2020-11-06 16:54:42,649 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:54:42,650 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 16:54:42,651 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:54:42,652 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 16:54:42,654 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:54:42,654 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 16:54:42,657 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 16:54:42,657 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 16:54:42,662 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:54:42,663 - EmployeesRestAPI -INFO - Mister i
+2020-11-06 16:54:42,663 - EmployeesRestAPI -INFO - 10564
+2020-11-06 16:54:42,664 - EmployeesRestAPI -INFO - 04
+2020-11-06 16:55:20,445 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:55:20,857 - EmployeesRestAPI -INFO - Mister C
+2020-11-06 16:55:20,858 - EmployeesRestAPI -INFO - 87430
+2020-11-06 16:55:20,858 - EmployeesRestAPI -INFO - 32
+2020-11-06 16:55:25,209 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:55:30,031 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 16:55:30,063 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:55:33,646 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:55:33,650 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:55:33,653 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:55:33,659 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:55:33,662 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:55:33,669 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:55:33,669 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 16:55:33,673 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 16:55:36,894 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:55:36,896 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 16:55:36,899 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:55:36,899 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 16:55:36,901 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:55:36,902 - EmployeesRestAPI -INFO - Response time is = 217
+2020-11-06 16:55:36,905 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:55:36,905 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 16:55:36,908 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:55:36,909 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 16:55:36,911 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:55:36,912 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 16:55:36,914 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 16:55:36,915 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 16:55:36,920 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:55:36,920 - EmployeesRestAPI -INFO - Mister o
+2020-11-06 16:55:36,921 - EmployeesRestAPI -INFO - 44246
+2020-11-06 16:55:36,921 - EmployeesRestAPI -INFO - 68
+2020-11-06 16:58:07,982 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:58:08,386 - EmployeesRestAPI -INFO - Mister G
+2020-11-06 16:58:08,387 - EmployeesRestAPI -INFO - 62382
+2020-11-06 16:58:08,387 - EmployeesRestAPI -INFO - 93
+2020-11-06 16:58:12,893 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:58:17,473 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-06 16:58:17,480 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-06 16:58:21,055 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:58:21,059 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:58:21,064 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:58:21,072 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:58:21,076 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:58:21,083 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:58:21,083 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-06 16:58:21,090 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-06 16:58:24,319 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-06 16:58:24,323 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-06 16:58:24,325 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-06 16:58:24,325 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-06 16:58:24,326 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-06 16:58:24,327 - EmployeesRestAPI -INFO - Response time is = 224
+2020-11-06 16:58:24,328 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-06 16:58:24,328 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-06 16:58:24,329 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-06 16:58:24,329 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-06 16:58:24,330 - EmployeesRestAPI -INFO - Checking server type
+2020-11-06 16:58:24,331 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-06 16:58:24,332 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-06 16:58:24,332 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-06 16:58:24,336 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-06 16:58:24,336 - EmployeesRestAPI -INFO - Mister j
+2020-11-06 16:58:24,337 - EmployeesRestAPI -INFO - 94839
+2020-11-06 16:58:24,337 - EmployeesRestAPI -INFO - 31
+2020-11-10 10:44:11,405 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:44:11,803 - EmployeesRestAPI -INFO - Mister M
+2020-11-10 10:44:11,804 - EmployeesRestAPI -INFO - 31201
+2020-11-10 10:44:11,804 - EmployeesRestAPI -INFO - 87
+2020-11-10 10:44:16,194 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:44:20,851 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 10:44:20,860 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:44:24,438 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:44:24,444 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:44:24,449 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:44:24,455 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:44:24,459 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:44:24,465 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:44:24,466 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 10:44:24,474 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 10:44:27,720 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:44:27,724 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 10:44:27,726 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:44:27,726 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 10:44:27,727 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:44:27,727 - EmployeesRestAPI -INFO - Response time is = 239
+2020-11-10 10:44:27,728 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:44:27,729 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 10:44:27,730 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:44:27,730 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 10:44:27,732 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:44:27,732 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 10:44:27,733 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 10:44:27,733 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 10:44:27,737 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:44:27,737 - EmployeesRestAPI -INFO - Mister c
+2020-11-10 10:44:27,737 - EmployeesRestAPI -INFO - 36385
+2020-11-10 10:44:27,738 - EmployeesRestAPI -INFO - 65
+2020-11-10 10:49:07,685 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:49:08,038 - EmployeesRestAPI -INFO - Mister z
+2020-11-10 10:49:08,039 - EmployeesRestAPI -INFO - 62323
+2020-11-10 10:49:08,039 - EmployeesRestAPI -INFO - 36
+2020-11-10 10:49:12,456 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:49:17,104 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 10:49:17,113 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:49:20,715 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:49:20,718 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:49:20,721 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:49:20,724 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:49:20,726 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:49:20,728 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:49:20,728 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 10:49:20,731 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 10:49:23,936 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:49:23,941 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 10:49:23,946 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:49:23,947 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 10:49:23,949 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:49:23,950 - EmployeesRestAPI -INFO - Response time is = 201
+2020-11-10 10:49:23,950 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:49:23,951 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 10:49:23,951 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:49:23,952 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 10:49:23,952 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:49:23,953 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 10:49:23,953 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 10:49:23,954 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 10:49:23,957 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:49:23,958 - EmployeesRestAPI -INFO - Mister O
+2020-11-10 10:49:23,958 - EmployeesRestAPI -INFO - 35711
+2020-11-10 10:49:23,958 - EmployeesRestAPI -INFO - 15
+2020-11-10 10:57:19,836 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:57:20,226 - EmployeesRestAPI -INFO - Mister X
+2020-11-10 10:57:20,226 - EmployeesRestAPI -INFO - 21112
+2020-11-10 10:57:20,226 - EmployeesRestAPI -INFO - 19
+2020-11-10 10:57:24,855 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:57:29,645 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 10:57:29,665 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 10:57:33,457 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:57:33,458 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:57:33,459 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:57:33,461 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:57:33,462 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:57:33,464 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:57:33,464 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 10:57:33,468 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 10:57:36,787 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 10:57:36,788 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 10:57:36,790 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 10:57:36,790 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 10:57:36,791 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 10:57:36,792 - EmployeesRestAPI -INFO - Response time is = 315
+2020-11-10 10:57:36,793 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 10:57:36,793 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 10:57:36,794 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 10:57:36,794 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 10:57:36,795 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 10:57:36,796 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 10:57:36,796 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 10:57:36,797 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 10:57:36,800 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 10:57:36,801 - EmployeesRestAPI -INFO - Mister D
+2020-11-10 10:57:36,801 - EmployeesRestAPI -INFO - 36758
+2020-11-10 10:57:36,801 - EmployeesRestAPI -INFO - 80
+2020-11-10 11:06:14,370 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:06:14,781 - EmployeesRestAPI -INFO - Mister H
+2020-11-10 11:06:14,781 - EmployeesRestAPI -INFO - 48917
+2020-11-10 11:06:14,782 - EmployeesRestAPI -INFO - 66
+2020-11-10 11:06:19,346 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:06:24,173 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 11:06:24,183 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:06:27,830 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:06:27,833 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:06:27,835 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:06:27,838 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:06:27,839 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:06:27,842 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:06:27,842 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 11:06:27,846 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 11:06:31,312 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:06:31,314 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 11:06:31,317 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:06:31,318 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 11:06:31,320 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:06:31,321 - EmployeesRestAPI -INFO - Response time is = 463
+2020-11-10 11:06:31,322 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:06:31,323 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 11:06:31,324 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:06:31,324 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 11:06:31,325 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:06:31,326 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 11:06:31,327 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 11:06:31,327 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 11:06:31,331 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:06:31,332 - EmployeesRestAPI -INFO - Mister b
+2020-11-10 11:06:31,332 - EmployeesRestAPI -INFO - 85108
+2020-11-10 11:06:31,333 - EmployeesRestAPI -INFO - 43
+2020-11-10 11:07:10,911 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:07:11,314 - EmployeesRestAPI -INFO - Mister o
+2020-11-10 11:07:11,314 - EmployeesRestAPI -INFO - 20578
+2020-11-10 11:07:11,315 - EmployeesRestAPI -INFO - 79
+2020-11-10 11:07:15,717 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:07:20,268 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 11:07:20,277 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:07:23,865 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:07:23,868 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:07:23,871 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:07:23,877 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:07:23,879 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:07:23,884 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:07:23,885 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 11:07:23,890 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 11:07:27,145 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:07:27,147 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 11:07:27,148 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:07:27,148 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 11:07:27,149 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:07:27,150 - EmployeesRestAPI -INFO - Response time is = 250
+2020-11-10 11:07:27,151 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:07:27,151 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 11:07:27,152 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:07:27,152 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 11:07:27,154 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:07:27,154 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 11:07:27,155 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 11:07:27,155 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 11:07:27,158 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:07:27,159 - EmployeesRestAPI -INFO - Mister O
+2020-11-10 11:07:27,159 - EmployeesRestAPI -INFO - 55824
+2020-11-10 11:07:27,159 - EmployeesRestAPI -INFO - 83
+2020-11-10 11:08:43,625 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:08:44,027 - EmployeesRestAPI -INFO - Mister a
+2020-11-10 11:08:44,028 - EmployeesRestAPI -INFO - 32195
+2020-11-10 11:08:44,028 - EmployeesRestAPI -INFO - 21
+2020-11-10 11:08:49,153 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:08:57,405 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 11:08:57,418 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:09:01,258 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:09:01,259 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:09:01,260 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:09:01,262 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:09:01,262 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:09:01,264 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:09:01,265 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 11:09:01,268 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 11:09:04,660 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:09:04,664 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 11:09:04,668 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:09:04,670 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 11:09:04,673 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:09:04,673 - EmployeesRestAPI -INFO - Response time is = 382
+2020-11-10 11:09:04,674 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:09:04,675 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 11:09:04,676 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:09:04,677 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 11:09:04,678 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:09:04,678 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 11:09:04,679 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 11:09:04,680 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 11:09:04,684 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:09:04,685 - EmployeesRestAPI -INFO - Mister s
+2020-11-10 11:09:04,685 - EmployeesRestAPI -INFO - 19006
+2020-11-10 11:09:04,686 - EmployeesRestAPI -INFO - 88
+2020-11-10 11:09:50,165 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:09:50,544 - EmployeesRestAPI -INFO - Mister R
+2020-11-10 11:09:50,545 - EmployeesRestAPI -INFO - 52616
+2020-11-10 11:09:50,545 - EmployeesRestAPI -INFO - 09
+2020-11-10 11:09:55,213 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:09:59,700 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 11:09:59,714 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:10:03,329 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:10:03,331 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:10:03,336 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:10:03,337 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:10:03,338 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:10:03,341 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:10:03,341 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 11:10:03,344 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 11:10:06,562 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:10:06,566 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 11:10:06,573 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:10:06,574 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 11:10:06,577 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:10:06,577 - EmployeesRestAPI -INFO - Response time is = 214
+2020-11-10 11:10:06,580 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:10:06,580 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 11:10:06,582 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:10:06,582 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 11:10:06,584 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:10:06,585 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 11:10:06,587 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 11:10:06,587 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 11:10:06,593 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:10:06,594 - EmployeesRestAPI -INFO - Mister A
+2020-11-10 11:10:06,595 - EmployeesRestAPI -INFO - 61036
+2020-11-10 11:10:06,595 - EmployeesRestAPI -INFO - 86
+2020-11-10 11:10:23,009 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:10:23,399 - EmployeesRestAPI -INFO - Mister h
+2020-11-10 11:10:23,399 - EmployeesRestAPI -INFO - 08608
+2020-11-10 11:10:23,400 - EmployeesRestAPI -INFO - 48
+2020-11-10 11:10:27,999 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:10:32,423 - EmployeesRestAPI -INFO - Records ID Number 1 has been deleted, Successfully! 
+2020-11-10 11:10:32,437 - EmployeesRestAPI -INFO - Started TC002_GET_SINGLE_USERS
+2020-11-10 11:10:36,005 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:10:36,006 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:10:36,008 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:10:36,010 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:10:36,011 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:10:36,012 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:10:36,013 - EmployeesRestAPI -INFO - Server Type is = nginx/1.16.0
+2020-11-10 11:10:36,016 - EmployeesRestAPI -INFO - Started TC001_GET_All_USERS
+2020-11-10 11:10:39,221 - EmployeesRestAPI -INFO - Checking Response Body
+2020-11-10 11:10:39,225 - EmployeesRestAPI -INFO - Response Body ={"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-11-10 11:10:39,227 - EmployeesRestAPI -INFO - Checking Status code
+2020-11-10 11:10:39,227 - EmployeesRestAPI -INFO - Status code is = 200
+2020-11-10 11:10:39,228 - EmployeesRestAPI -INFO - Checking Response Time
+2020-11-10 11:10:39,228 - EmployeesRestAPI -INFO - Response time is = 201
+2020-11-10 11:10:39,229 - EmployeesRestAPI -INFO - Checking status Line
+2020-11-10 11:10:39,229 - EmployeesRestAPI -INFO - Status Line is = HTTP/1.1 200 OK
+2020-11-10 11:10:39,230 - EmployeesRestAPI -INFO - Checking Content Type
+2020-11-10 11:10:39,230 - EmployeesRestAPI -INFO - Content type is = application/json; charset=utf-8
+2020-11-10 11:10:39,231 - EmployeesRestAPI -INFO - Checking server type
+2020-11-10 11:10:39,231 - EmployeesRestAPI -INFO - Server Type is = cloudflare
+2020-11-10 11:10:39,232 - EmployeesRestAPI -INFO - Checking cookies
+2020-11-10 11:10:39,232 - EmployeesRestAPI -INFO - Cookies = null
+2020-11-10 11:10:39,235 - EmployeesRestAPI -INFO - Started TC003 USING POST REQUESTS TO CREATE NEW RECORDS IN THE DATABASE
+2020-11-10 11:10:39,236 - EmployeesRestAPI -INFO - Mister W
+2020-11-10 11:10:39,237 - EmployeesRestAPI -INFO - 88376
+2020-11-10 11:10:39,237 - EmployeesRestAPI -INFO - 33
